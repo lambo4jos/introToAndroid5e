@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple NavDrawer</string>
+
+    <string name="instructions">Welcome! Tap the navigation drawer in the upper left corner of the application to reveal the navigation view, or swipe right from the left side of the application to reveal the navigation view. You will then be presented with a navigation list, and upon making a selection, you will see the navigation drawer close followed by the application contents reflecting the selection made.</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_drawer">Nav Drawer</string>
+
+    <string name="email">Email</string>
+    <string name="info">Info</string>
+    <string name="map">Map</string>
+
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+
+</resources>

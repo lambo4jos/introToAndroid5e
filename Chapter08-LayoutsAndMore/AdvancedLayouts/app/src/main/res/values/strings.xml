@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Advanced Layouts</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world, AdvancedLayoutsActivity!</string>
+    <string name="contacts">Contacts</string>
+    <string name="click_to_view_number">Click to view number</string>
+    <string name="do_dialog">Do Dialog</string>
+    <string name="click_for_popup">Click for popup</string>
+    <string name="handle">Handle</string>
+    <string name="small_padded">Small Padded</string>
+    <string name="big">Big!</string>
+    <string name="normal_w_parent_color">Normal w/parent color</string>
+    <string name="italic_w_parent_color">Italic w/parent color</string>
+    <string name="glow">Glow!</string>
+    <string name="normal">normal</string>
+    <string name="hi_there">Hi There!</string>
+    <string name="i_m_second_i_need_to_wrap">I\'m second. I need to wrap.</string>
+    <string name="grid_view">Grid View</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="empty_list">Empty list</string>
+    <string name="okay">Ok</string>
+    <string name="contacts_permission">Contacts permissions are needed to proceed</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="show_contacts">Show and add contacts</string>
+    <string name="message">
+        <![CDATA[
+
+
+            This sample shows runtime permissions available in Android M and above.
+            Display the log on screen to follow the execution.
+            If executed on an Android M device, an additional option to access contacts is shown
+            that is declared with optional, M and above only permissions.
+
+
+        ]]>
+    </string>
+</resources>

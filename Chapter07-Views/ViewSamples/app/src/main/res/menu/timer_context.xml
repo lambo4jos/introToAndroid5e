@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/start_timer"
+        android:title="@string/start" />
+    <item
+        android:id="@+id/stop_timer"
+        android:title="@string/stop" />
+    <item
+        android:id="@+id/reset_timer"
+        android:title="@string/reset" />
+</menu>

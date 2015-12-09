@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="myAppIsStyling" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#F00</item>
+        <item name="android:textSize">16pt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

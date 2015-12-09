@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SameLayoutActivity">
+    <item
+        android:id="@+id/program_menu_item"
+        android:title="@string/layout_generated_programmatically"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/resource_menu_item"
+        android:title="@string/layout_generated_by_resource"
+        android:orderInCategory="2"/>
+</menu>

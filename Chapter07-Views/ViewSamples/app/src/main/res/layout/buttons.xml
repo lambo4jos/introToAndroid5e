@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampleButtons" />
+
+        <LinearLayout
+            android:id="@+id/basic_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/basic_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basicButton" />
+
+            <ImageButton
+                android:id="@+id/image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/droidSkater02"
+                android:src="@drawable/droidsk2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <ToggleButton
+                android:id="@+id/toggle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle"
+                android:textOff="Disabled"
+                android:textOn="Enabled" />
+
+            <TextView
+                android:id="@+id/text_feature"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/toggleMe" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <CheckBox
+                android:id="@+id/checkbox01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkMe" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/switchMe"
+                android:textOff="Wax Off"
+                android:textOn="Wax On" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <RadioGroup
+                android:id="@+id/RadioGroup01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/RadioButton01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option01" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option02" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option03" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option04" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose01" />
+
+                <Button
+                    android:id="@+id/Button01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clearChoice" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/submit_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

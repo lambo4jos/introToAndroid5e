@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.introtoandroid.simplelayout" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SimpleLayoutActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+        <activity
+            android:name=".MultipleLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+        <activity
+            android:name=".TableLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+        <activity
+            android:name=".GridLayoutActivity"
+            android:parentActivityName=".SimpleLayoutActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SimpleLayoutActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

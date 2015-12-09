@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simple Frag Dialog</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="toast">Simple Toast Message</string>
+    <string name="basic">Basic Dialog</string>
+    <string name="alert">Alert Dialog</string>
+    <string name="character">Character Picker Dialog</string>
+    <string name="date">Date Picker Dialog</string>
+    <string name="progress">Progress Dialog</string>
+    <string name="time">Time Picker Dialog</string>
+    <string name="custom">Custom Dialog</string>
+    <string name="password_title">Set Password</string>
+    <string name="settings_password">Password:</string>
+    <string name="settings_password2">Password (again):</string>
+    <string name="settings_pwd_not_equal">Passwords do not match.</string>
+    <string name="settings_pwd_equal">Passwords match.</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.introtoandroid.viewsamples">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ViewSamplesActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextDisplayActivity"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+
+        <activity
+            android:name=".ContainersActivity"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+        <activity
+            android:name=".FormsActivity"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+        <activity
+            android:name=".IndicatorsActivity"
+            android:theme="@style/InicatorTheme"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:parentActivityName=".ViewSamplesActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSamplesActivity" />
+        </activity>
+
+        <activity
+            android:name=".PickersActivity"
+            android:parentActivityName=".FormsActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FormsActivity" />
+        </activity>
+        <activity
+            android:name=".ButtonsActivity"
+            android:parentActivityName=".FormsActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FormsActivity" />
+        </activity>
+        <activity
+            android:name=".TextInputActivity"
+            android:parentActivityName=".FormsActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FormsActivity" />
+        </activity>
+    </application>
+</manifest>

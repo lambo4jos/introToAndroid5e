@@ -1,0 +1,22 @@
+<resources>
+    <!-- Some basic strings. -->
+    <string name="app_name">Resource Roundup!</string>
+    <string name="hello">Hi!</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- This string has some bold styling. -->
+    <string name="boldhello">&lt;b&gt;Hello&lt;/b&gt;</string>
+
+    <!-- This is a simple format string. -->
+    <string name="simpleformatString">Your score is %1$d out of %2$d! You %3$s.</string>
+    <!-- This is a format string with some styling. -->
+    <string name="formatStringWithTwoNumbersAndAString">Your score is %1$d out of %2$d! You &amp;lt;i&gt;%3$s&amp;lt;/i&gt;.</string>
+
+    <!-- These are some strings used in arrays.xml. -->
+    <string name="imageView02">ImageView2</string>
+    <string name="imageView01">ImageView1</string>
+    <string name="greenRectangle">Green Rectangle</string>
+    <string name="start">Start!</string>
+    <string name="stop">Stop!</string>
+    <string name="vroomAccelerate">Vroom! Accelerate!</string>
+</resources>

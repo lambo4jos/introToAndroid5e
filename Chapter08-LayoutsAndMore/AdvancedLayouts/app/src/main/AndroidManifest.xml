@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.introtoandroid.advancedlayouts">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AdvancedLayoutsActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BasicLayoutActivity"
+            android:parentActivityName=".MyListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MyListActivity" />
+        </activity>
+
+        <activity
+            android:name=".MyListActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+
+        <activity
+            android:name=".GridListMenuActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+
+        <activity
+            android:name=".GridLayoutActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+
+        <activity
+            android:name=".ContactAdapterActivity"
+            android:parentActivityName=".AdaptersActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdaptersActivity" />
+        </activity>
+
+        <activity
+            android:name=".ListAdapterSampleActivity"
+            android:parentActivityName=".AdaptersActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdaptersActivity" />
+        </activity>
+
+        <activity
+            android:name=".AdaptersActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+
+        <activity
+            android:name=".StyleSamplesActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+
+        <activity
+            android:name=".SimpleListFragmentActivity"
+            android:parentActivityName=".GridListMenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GridListMenuActivity" />
+        </activity>
+
+        <activity
+            android:name=".SimpleGridFragmentActivity"
+            android:parentActivityName=".GridListMenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GridListMenuActivity" />
+        </activity>
+
+        <activity
+            android:name=".DialogActivity"
+            android:parentActivityName=".AdvancedLayoutsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdvancedLayoutsActivity" />
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">File Stream</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="this_is_the_log_file">"Chat logged and displayed below... "</string>
+    <string name="go_chat">Go Chat</string>
+    <string name="show_log_here">-Show Log Here-</string>
+    <string name="delete_log">Delete Log</string>
+    <string name="description">"Chat with yourself here and it will be logged to a file. "</string>
+    <string name="chat_text_here_then_hit_send">Chat here then tap send</string>
+    <string name="send">Send</string>
+    <string name="review_log_file">Review Log File</string>
+    <string name="title_activity_view_log">Log View</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

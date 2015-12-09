@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">User Prefs Headers</string>
+    <string-array name="char_gender_types">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="char_genders">
+        <item>male</item>
+        <item>female</item>
+        <item>unknown</item>
+    </string-array>
+    <string-array name="char_race_types">
+        <item>Elf</item>
+        <item>Dwarf</item>
+        <item>Chickpea</item>
+        <item>Troll</item>
+    </string-array>
+    <string-array name="char_races">
+        <item>elf</item>
+        <item>dwarf</item>
+        <item>chickpea</item>
+        <item>troll</item>
+    </string-array>
+</resources>

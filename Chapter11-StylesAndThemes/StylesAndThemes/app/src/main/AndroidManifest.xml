@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.introtoandroid.stylesandthemes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Brand"
+        android:windowSoftInputMode="stateHidden">
+        <activity
+            android:name=".DefaultBrandActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.introtoandroid.stylesandthemes.GreenBrandActivity"
+            android:label="@string/title_activity_green_brand"
+            android:parentActivityName=".DefaultBrandActivity"
+            android:theme="@style/Brand.Green"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DefaultBrandActivity" />
+        </activity>
+        <activity
+            android:name="com.introtoandroid.stylesandthemes.OrangeBrandActivity"
+            android:label="@string/title_activity_orange_brand"
+            android:parentActivityName=".DefaultBrandActivity"
+            android:theme="@style/Brand.Orange"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DefaultBrandActivity" />
+        </activity>
+    </application>
+
+</manifest>

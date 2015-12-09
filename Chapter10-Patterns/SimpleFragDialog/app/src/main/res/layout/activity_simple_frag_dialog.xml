@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Button_Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast" />
+
+    <Button
+        android:id="@+id/Button_SimpleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/basic" />
+
+    <Button
+        android:id="@+id/Button_AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert" />
+
+    <Button
+        android:id="@+id/Button_ProgressDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progress" />
+
+    <Button
+        android:id="@+id/Button_DatePickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date" />
+
+    <Button
+        android:id="@+id/Button_TimePickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time" />
+
+    <Button
+        android:id="@+id/Button_CharacterPickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/character" />
+
+    <Button
+        android:id="@+id/Button_CustomDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom" />
+</LinearLayout>

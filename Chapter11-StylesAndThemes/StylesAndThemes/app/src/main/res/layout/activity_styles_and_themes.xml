@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DefaultBrandActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_heading" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <View
+                    android:id="@+id/circle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textViewPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/circle"
+                    android:text="@string/primary_text" />
+
+                <TextView
+                    android:id="@+id/textViewSecondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewPrimary"
+                    android:layout_toEndOf="@+id/circle"
+                    android:text="@string/secondary_text" />
+
+                <ImageView
+                    android:id="@+id/info_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <View
+                    android:id="@+id/circle01"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textViewPrimary01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/circle01"
+                    android:text="@string/primary_text" />
+
+                <TextView
+                    android:id="@+id/textViewSecondary01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewPrimary01"
+                    android:layout_toEndOf="@+id/circle01"
+                    android:text="@string/secondary_text" />
+
+                <ImageView
+                    android:id="@+id/info_view01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <View
+                    android:id="@+id/circle02"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textViewPrimary02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/circle02"
+                    android:text="@string/primary_text" />
+
+                <TextView
+                    android:id="@+id/textViewSecondary02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewPrimary02"
+                    android:layout_toEndOf="@+id/circle02"
+                    android:text="@string/secondary_text" />
+
+                <ImageView
+                    android:id="@+id/info_view02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_heading01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_text_heading" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/circle03"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/circle03">
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint"
+                        android:text="@string/editText" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/info_view03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/circle04"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/circle04">
+
+                    <EditText
+                        android:id="@+id/editText01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint"
+                        android:text="@string/editText" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/info_view04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/circle05"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/circle05">
+
+                    <EditText
+                        android:id="@+id/editText02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint"
+                        android:text="@string/editText" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/info_view05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/info"
+                    android:src="@android:drawable/ic_dialog_info" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/mediumdp"
+        android:layout_marginEnd="@dimen/mediumdp"
+        android:contentDescription="@string/fab"
+        android:elevation="@dimen/highEle"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/default_fab_tint" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/default_toolbar"
+        android:elevation="@dimen/midEle"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/map_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/map"
+                android:src="@android:drawable/ic_dialog_map" />
+
+            <ImageButton
+                android:id="@+id/email_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/email"
+                android:src="@android:drawable/ic_dialog_email" />
+
+            <ImageButton
+                android:id="@+id/info_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/info"
+                android:src="@android:drawable/ic_dialog_info" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

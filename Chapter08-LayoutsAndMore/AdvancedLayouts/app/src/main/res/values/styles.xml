@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarTheme">@style/ToolbarTheme</item>
+        <item name="colorControlNormal">@android:color/background_dark</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize your toolbar theme here. -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="padded_small">
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="padded_xlarge">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">100sp</item>
+    </style>
+
+    <style name="red_padded">
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">#F00</item>
+    </style>
+
+    <style name="padded_normal" parent="red_padded">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="padded_italics" parent="red_padded">
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="glow" parent="padded_xlarge">
+        <item name="android:shadowColor">#0F0</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <style name="ThemeGlow">
+        <item name="android:shadowColor">#0F0</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="right">
+        <item name="android:gravity">right</item>
+    </style>
+</resources>

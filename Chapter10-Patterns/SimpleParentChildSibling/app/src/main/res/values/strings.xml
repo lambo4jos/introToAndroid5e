@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Parent Child Sibling</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_first_child">First Child Activity</string>
+    <string name="title_activity_second_child">Second Child Activity</string>
+    <string name="title_activity_third_child">Third Child Activity</string>
+
+    <string name="descendant_first_child">Descendant - First Child</string>
+    <string name="descendant_second_child">Descendant - Second Child</string>
+    <string name="descendant_third_child">Descendant - Third Child</string>
+
+    <string name="lateral_first_sibling">Lateral - First Sibling</string>
+    <string name="lateral_second_sibling">Lateral - Second Sibling</string>
+    <string name="lateral_third_sibling">Lateral - Third Sibling</string>
+
+</resources>

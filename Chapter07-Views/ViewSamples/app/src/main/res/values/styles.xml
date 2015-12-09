@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="InicatorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your indicator toolbar theme here. -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+</resources>

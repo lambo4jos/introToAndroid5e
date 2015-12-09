@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="@string/autolink_test"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:linksClickable="false"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="@string/autolink_test"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="@string/autolink_test"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

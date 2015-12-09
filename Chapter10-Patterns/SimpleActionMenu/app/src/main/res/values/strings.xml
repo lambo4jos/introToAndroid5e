@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Action Menu</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_close">Close</string>
+    <string name="action_help">Help</string>
+    <string name="show_action_bar">Show Action Bar</string>
+    <string name="hide_action_bar">Hide Action Bar</string>
+</resources>

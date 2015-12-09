@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Brand.Orange" parent="Brand">
+        <!-- android:windowBackground colors the root background area of the app -->
+        <item name="android:windowBackground">@color/theme_orange_window_background</item>
+        <!-- colorPrimaryDark colors the status bar -->
+        <item name="colorPrimaryDark">@color/theme_orange_primary_dark</item>
+        <!-- colorPrimary colors the action bar and toolbar -->
+        <item name="colorPrimary">@color/theme_orange_primary</item>
+        <!-- colorAccent colors the floating action button and accents of controls -->
+        <item name="colorAccent">@color/theme_orange_accent</item>
+        <!-- colorControlHighlight controls the material ripple color -->
+        <item name="colorControlHighlight">@color/theme_orange_control_highlight</item>
+        <!-- android:textColor controls the color of text in the app -->
+        <item name="android:textColor">@color/theme_orange_text_color</item>
+        <!-- android:textColorHint controls the color of hint in the EditText -->
+        <item name="android:textColorHint">@color/theme_orange_primary_dark</item>
+        <!-- android:navigationBarColor controls the color of the navigation bar -->
+        <item name="android:navigationBarColor">@color/theme_orange_primary_dark</item>
+    </style>
+
+    <style name="Brand.Green" parent="Brand">
+        <!-- android:windowBackground colors the root background area of the app -->
+        <item name="android:windowBackground">@color/theme_green_window_background</item>
+        <!-- colorPrimaryDark colors the status bar -->
+        <item name="colorPrimaryDark">@color/theme_green_primary_dark</item>
+        <!-- colorPrimary colors the action bar and toolbar -->
+        <item name="colorPrimary">@color/theme_green_primary</item>
+        <!-- colorAccent colors the floating action button and accents of controls -->
+        <item name="colorAccent">@color/theme_green_accent</item>
+        <!-- colorControlHighlight controls the material ripple color -->
+        <item name="colorControlHighlight">@color/theme_green_control_highlight</item>
+        <!-- android:textColor controls the color of text in the app -->
+        <item name="android:textColor">@color/theme_green_text_color</item>
+        <!-- android:textColorHint controls the color of hint in the EditText -->
+        <item name="android:textColorHint">@color/theme_green_primary_dark</item>
+        <!-- android:navigationBarColor controls the color of the navigation bar -->
+        <item name="android:navigationBarColor">@color/theme_green_primary_dark</item>
+    </style>
+</resources>

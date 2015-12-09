@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="veggies_array">
+        <item>Cherry Tomatoes</item>
+        <item>Figs</item>
+        <item>Grapes</item>
+        <item>Heirloom Tomatoes</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Oranges</item>
+        <item>Peaches</item>
+        <item>Peppers</item>
+        <item>Zucchini</item>
+    </string-array>
+    <string-array name="veggieurls_array">
+        <item>http://andys-veggie-garden.appspot.com/cherrytomatoes</item>
+        <item>http://andys-veggie-garden.appspot.com/figs</item>
+        <item>http://andys-veggie-garden.appspot.com/grapes</item>
+        <item>http://andys-veggie-garden.appspot.com/heirloomtomatoes</item>
+        <item>http://andys-veggie-garden.appspot.com/lemon</item>
+        <item>http://andys-veggie-garden.appspot.com/lime</item>
+        <item>http://andys-veggie-garden.appspot.com/oranges</item>
+        <item>http://andys-veggie-garden.appspot.com/peach</item>
+        <item>http://andys-veggie-garden.appspot.com/peppers</item>
+        <item>http://andys-veggie-garden.appspot.com/zucchini</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Content Provider</string>
+
+    <string name="logcatOutput">Please see LogCat for output</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Simple Contacts</string>
+
+    <string name="logcatOutput">See the LogCat output for details.</string>
+    <string name="listContact">List Contact Using ContactsContract.Contacts Content Provider</string>
+</resources>

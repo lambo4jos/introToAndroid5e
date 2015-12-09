@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Styles And Themes</string>
+
+    <string name="text_view_heading">TextView\'s</string>
+    <string name="edit_text_heading">EditText\'s</string>
+    <string name="primary_text">Primary TextView</string>
+    <string name="secondary_text">This is a secondary TextView</string>
+    <string name="editText">This is an EditText</string>
+    <string name="action_green">Green</string>
+    <string name="action_orange">Orange</string>
+    <string name="map">Map</string>
+    <string name="email">Email</string>
+    <string name="info">Info</string>
+    <string name="fab">Add</string>
+    <string name="hint">Hint</string>
+    <string name="title_activity_green_brand">Green Branded Activity</string>
+    <string name="title_activity_orange_brand">Orange Branded Activity</string>
+
+</resources>

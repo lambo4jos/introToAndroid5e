@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileStreamOfConsciousnessActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/description"
+        android:textSize="12pt"
+        android:textStyle="italic"
+        android:id="@+id/instruction" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/EditTextChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/chat_text_here_then_hit_send"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/ButtonSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/EditTextChat" />
+        <Button
+            android:id="@+id/ButtonSeeLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/review_log_file"
+            android:textStyle="italic"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

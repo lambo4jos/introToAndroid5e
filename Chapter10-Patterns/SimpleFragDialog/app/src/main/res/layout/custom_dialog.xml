@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView_Pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText_Pwd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:labelFor="@id/EditText_Pwd1"
+        android:maxLength="20"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/TextView_Pwd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_password2"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText_Pwd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/EditText_Pwd2"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/TextView_PwdProblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+</LinearLayout>

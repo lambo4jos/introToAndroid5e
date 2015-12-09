@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simple Master Detail</string>
+    <string name="title_topic_detail">Topic Detail</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simple Preferences</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_more_simple_preferences">More Simple Preferences</string>
+    <string name="activity_name">-Activity Name-</string>
+    <string name="change_activities">Change Activities</string>
+    <string name="enter_pref_name">Enter a preference name</string>
+    <string name="enter_pref_value">Enter a preference value</string>
+    <string name="add_edit_shared_pref">Add/Edit Shared Pref</string>
+    <string name="clear_shared_pref_by_name">Clear Shared Pref By Name</string>
+    <string name="add_edit_activity_pref">Add/Edit Activity Pref</string>
+    <string name="clear_act_pref_by_name">Clear Act Pref By Name</string>
+    <string name="SHARED_PREFS">*SHARED PREFS*</string>
+    <string name="clear_all_shared_prefs">Clear All Shared Prefs</string>
+    <string name="show_prefs_here">-Show Prefs Here-</string>
+    <string name="ACTIVITY_PREFS">*ACTIVITY PREFS*</string>
+    <string name="clear_all_activity_prefs">Clear All Activity Prefs</string>
+</resources>

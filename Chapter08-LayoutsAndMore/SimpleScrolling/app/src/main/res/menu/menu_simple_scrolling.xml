@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SimpleScrollingActivity">
+    <item
+        android:id="@+id/noscroll_menu_item"
+        android:orderInCategory="1"
+        android:title="@string/no_scrolling" />
+    <item
+        android:id="@+id/verticalscroll_menu_item"
+        android:orderInCategory="2"
+        android:title="@string/vertical_scrolling" />
+    <item
+        android:id="@+id/horizontalscroll_menu_item"
+        android:orderInCategory="3"
+        android:title="@string/horizontal_scrolling" />
+    <item
+        android:id="@+id/bothscroll_menu_item"
+        android:orderInCategory="4"
+        android:title="@string/horz_and_vert_scrolling" />
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_vertical"
+            android:text="@string/call_me"
+            android:textSize="22pt" />
+
+        <AnalogClock
+            android:id="@+id/AnalogClock01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Button01"
+                style="?android:button"
+                android:text="@string/one_number" />
+
+            <Button
+                android:id="@+id/Button02"
+                style="?android:button"
+                android:text="@string/two_number" />
+
+            <Button
+                android:id="@+id/Button03"
+                style="?android:button"
+                android:text="@string/three_number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/Button04"
+                style="?android:button"
+                android:text="@string/four_number" />
+
+            <Button
+                android:id="@+id/Button05"
+                style="?android:button"
+                android:text="@string/five_number" />
+
+            <Button
+                android:id="@+id/Button06"
+                style="?android:button"
+                android:text="@string/six_number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/Button07"
+                style="?android:button"
+                android:text="@string/seven_number" />
+
+            <Button
+                android:id="@+id/Button08"
+                style="?android:button"
+                android:text="@string/eight_number" />
+
+            <Button
+                android:id="@+id/Button09"
+                style="?android:button"
+                android:text="@string/nine_number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/Button00"
+                style="?android:button"
+                android:layout_column="1"
+                android:text="@string/zero_number" />
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/green_rect"
+            android:minHeight="200dp"
+            android:minWidth="200dp"
+            android:src="@drawable/green_rect" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/red_oval"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:src="@drawable/red_oval" />
+    </FrameLayout>
+</LinearLayout>

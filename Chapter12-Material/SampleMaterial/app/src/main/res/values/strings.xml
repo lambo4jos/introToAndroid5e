@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Sample Material</string>
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <string name="fab">Add Friend</string>
+    <string name="title_activity_transition_edit">Edit Name Activity</string>
+    <string name="title_activity_transition_add">Add Name Activity</string>
+
+    <string-array name="names_array">
+        <item>Michael</item>
+        <item>Jennifer</item>
+        <item>Christopher</item>
+        <item>Amy</item>
+        <item>Jason</item>
+        <item>Melissa</item>
+        <item>David</item>
+        <item>Michelle</item>
+        <item>James</item>
+        <item>Kimberly</item>
+        <item>John</item>
+        <item>Lisa</item>
+        <item>Robert</item>
+        <item>Angela</item>
+        <item>Brian</item>
+        <item>Heather</item>
+        <item>William</item>
+        <item>Stephanie</item>
+        <item>Matthew</item>
+        <item>Nicole</item>
+        <item>Joseph</item>
+        <item>Jessica</item>
+        <item>Daniel</item>
+        <item>Elizabeth</item>
+        <item>Kevin</item>
+        <item>Rebecca</item>
+        <item>Eric</item>
+        <item>Kelly</item>
+        <item>Jeffrey</item>
+        <item>Mary</item>
+        <item>Richard</item>
+        <item>Christina</item>
+        <item>Scott</item>
+        <item>Amanda</item>
+        <item>Mark</item>
+        <item>Julie</item>
+        <item>Thomas</item>
+        <item>Laura</item>
+        <item>Timothy</item>
+        <item>Shannon</item>
+        <item>Anthony</item>
+        <item>Christine</item>
+        <item>Charles</item>
+        <item>Tammy</item>
+        <item>Joshua</item>
+        <item>Tracy</item>
+        <item>Ryan</item>
+        <item>Karen</item>
+        <item>Jeremy</item>
+        <item>Dawn</item>
+    </string-array>
+</resources>

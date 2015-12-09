@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="PrimaryTextViewGreen">
+        <item name="android:textSize">@dimen/mediumsp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:paddingTop">@dimen/mediumdp</item>
+    </style>
+
+    <style name="SecondaryTextViewGreen">
+        <item name="android:alpha">0.7</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:textSize">@dimen/smallsp</item>
+    </style>
+
+    <style name="PrimaryTextViewOrange">
+        <item name="android:textSize">@dimen/mediumsp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:paddingTop">@dimen/mediumdp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="SecondaryTextViewOrange">
+        <item name="android:alpha">0.7</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:textSize">@dimen/smallsp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="EditTextGreen">
+        <!--<item name="android:ems">10</item>-->
+        <item name="android:textColor">@color/theme_green_text_color</item>
+    </style>
+
+    <style name="EditTextOrange">
+        <!--<item name="android:ems">10</item>-->
+        <item name="android:textColor">@color/theme_orange_text_color</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="LayoutDivider">
+        <item name="android:background">@color/layout_divider_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider</item>
+        <item name="android:alpha">0.1</item>
+    </style>
+
+    <style name="LayoutGap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/xsmalldp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ImageButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ImageView" parent="">
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:contentDescription">@string/info</item>
+        <item name="android:src">@android:drawable/ic_dialog_info</item>
+        <item name="android:tint">@color/image_view_tint_color</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="LinearContentBodyOrange">
+        <item name="android:background">@color/theme_orange_linear_content_background</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation" tools:ignore="NewApi">@dimen/lowEle</item>
+    </style>
+
+    <style name="HeadingOrange">
+        <item name="android:paddingBottom">@dimen/mediumdp</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:paddingStart">@dimen/xxxlargedp</item>
+        <item name="android:paddingTop">@dimen/mediumdp</item>
+        <item name="android:textColor">@color/theme_orange_heading_text_color</item>
+        <item name="android:textSize">@dimen/largesp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="Circle">
+        <item name="android:layout_margin">@dimen/mediumdp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="LinearContentBodyGreen">
+        <item name="android:background">@color/theme_green_linear_content_background</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation" tools:ignore="NewApi">@dimen/lowEle</item>
+    </style>
+
+    <style name="HeadingGreen">
+        <item name="android:paddingBottom">@dimen/mediumdp</item>
+        <item name="android:paddingEnd">@dimen/mediumdp</item>
+        <item name="android:paddingStart">@dimen/xxxlargedp</item>
+        <item name="android:paddingTop">@dimen/mediumdp</item>
+        <item name="android:textColor">@color/theme_green_heading_text_color</item>
+        <item name="android:textSize">@dimen/largesp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

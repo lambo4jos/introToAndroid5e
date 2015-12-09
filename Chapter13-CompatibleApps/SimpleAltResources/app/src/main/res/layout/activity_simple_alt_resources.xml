@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleAltResourcesActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:minHeight="?attr/actionBarSize"/>
+    <ImageView
+        android:id="@+id/ImageView"
+        android:src="@drawable/pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imageview"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orientation"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

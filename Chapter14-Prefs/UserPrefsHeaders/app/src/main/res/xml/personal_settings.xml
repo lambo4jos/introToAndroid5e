@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Username and Email">
+	    <EditTextPreference
+	        android:key="username"
+	        android:title="Username"
+	        android:summary="This is your ACME Service username"
+	        android:defaultValue="username01"
+	        android:dialogTitle="Enter your ACME Service username:" />
+	    <EditTextPreference
+	        android:key="email"
+	        android:title="Configure Email"
+	        android:summary="Enter your email address"
+	        android:defaultValue="your@email.com" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Scrolling</string>
+    <string name="no_scrolling">No Scrolling</string>
+    <string name="vertical_scrolling">Vertical Scrolling</string>
+    <string name="horizontal_scrolling">Horizontal Scrolling</string>
+    <string name="horz_and_vert_scrolling">Horz. and Vert. Scrolling</string>
+    <string name="cover">cover</string>
+    <string name="press_menu_to_change_to_a_scrolling_example">Press Menu to Change to a Scrolling Example</string>
+</resources>

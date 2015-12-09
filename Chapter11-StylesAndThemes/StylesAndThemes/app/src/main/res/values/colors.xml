@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material color palette -->
+    <color name="amber_100">#FFECB3</color>
+    <color name="amber_200">#FFE082</color>
+    <color name="amber_700">#FFA000</color>
+    <color name="amber_900">#FF6F00</color>
+    <color name="light_green_100">#DCEDC8</color>
+    <color name="light_green_200">#C5E1A5</color>
+    <color name="light_green_700">#689F38</color>
+    <color name="light_green_900">#33691E</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="brown_700">#5D4037</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Orange Branding Colors -->
+    <color name="theme_orange_primary_dark">@color/amber_900</color>
+    <color name="theme_orange_primary">@color/amber_700</color>
+    <color name="theme_orange_accent">@color/light_green_900</color>
+    <color name="theme_orange_background">@color/theme_orange_primary</color>
+    <color name="theme_orange_control_highlight">@color/theme_orange_primary</color>
+    <color name="theme_orange_status_bar">@color/theme_orange_primary_dark</color>
+    <color name="theme_orange_action_bar">@color/theme_orange_primary</color>
+    <color name="theme_orange_window_background">@color/amber_100</color>
+    <color name="theme_orange_bottom_bar">@color/theme_orange_primary</color>
+    <color name="theme_orange_nav_bar">@color/theme_orange_primary_dark</color>
+    <color name="theme_orange_linear_content_background">@color/amber_200</color>
+    <color name="theme_orange_heading_text_color">@color/light_green_900</color>
+    <color name="theme_orange_toolbar_overflow_text_color">@color/white</color>
+    <!-- Text color for Orange -->
+    <color name="theme_orange_text_color">@color/brown_700</color>
+
+    <!-- Green Activity Branding Colors -->
+    <color name="theme_green_primary_dark">@color/light_green_900</color>
+    <color name="theme_green_primary">@color/light_green_700</color>
+    <color name="theme_green_accent">@color/amber_900</color>
+    <color name="theme_green_background">@color/theme_green_primary</color>
+    <color name="theme_green_control_highlight">@color/theme_green_primary</color>
+    <color name="theme_green_status_bar">@color/theme_green_primary_dark</color>
+    <color name="theme_green_action_bar">@color/theme_green_primary</color>
+    <color name="theme_green_window_background">@color/light_green_100</color>
+    <color name="theme_green_bottom_bar">@color/theme_green_primary</color>
+    <color name="theme_green_nav_bar">@color/theme_green_primary_dark</color>
+    <color name="theme_green_linear_content_background">@color/light_green_200</color>
+    <color name="theme_green_heading_text_color">@color/amber_900</color>
+    <color name="theme_green_toolbar_overflow_text_color">@color/white</color>
+    <!-- Text color for Green -->
+    <color name="theme_green_text_color">@color/brown_700</color>
+
+    <!-- Other colors -->
+    <color name="layout_divider_color">@color/brown_700</color>
+    <color name="image_view_tint_color">@color/blue_700</color>
+    <color name="theme_circle">@color/brown_700</color>
+    <color name="circle">@color/white</color>
+    <color name="default_toolbar">@color/black</color>
+    <color name="default_fab_tint">@color/white</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>

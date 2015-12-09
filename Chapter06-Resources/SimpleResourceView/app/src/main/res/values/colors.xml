@@ -1,0 +1,8 @@
+<resources>
+    <color name="background_color">#2F4F2F</color>
+    <color name="text_color">#EBC79E</color>
+    <color name="primary">#6C9669</color>
+    <color name="primary_dark">#1E3A1B</color>
+    <color name="text_primary">#CEDCCD</color>
+    <color name="nav_bar">#1E3A1B</color>
+</resources>

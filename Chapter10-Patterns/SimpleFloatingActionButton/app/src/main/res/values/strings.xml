@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Floating Action Button</string>
+
+    <string name="hello_fab">Floating Action Button Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="fab">Floating Action Button</string>
+</resources>

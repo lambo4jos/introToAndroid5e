@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">View Samples</string>
+    <string name="spin_prompt">Choose a color</string>
+    <string name="autolink_test">
+        The Introduction to Android Application Development: Android Essentials, 5th Edition blog is at
+        http://introductiontoandroid.blogspot.com \nFind me at my favorite coffee joint, Coupa Cafe at
+        538 Ramona St, Palo Alto, CA 94301 \nCall me at +1 (800) 555-1212 \nEmail me at
+        introtoandroid5e@gmail.com\n
+	</string>
+    <array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Black</item>
+    </array>
+    <string name="dash">---</string>
+    <string name="typeHere">Type here</string>
+    <string name="presetValue">Preset value</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="indicators">Indicators</string>
+    <string name="slider">Slider</string>
+    <string name="lastEvent">Last event:</string>
+    <string name="performAnEvent">Perform an event &#8230;</string>
+    <string name="longPressMe">Long press me</string>
+    <string name="focusMe">Focus me</string>
+    <string name="flip">Flip</string>
+    <string name="droidGreen">Droid Green</string>
+    <string name="droidOrange">Droid Orange</string>
+    <string name="sampleButtons">Sample Buttons</string>
+    <string name="basicButton">Basic Button</string>
+    <string name="toggle">Toggle</string>
+    <string name="toggleMe">Toggle me</string>
+    <string name="checkMe">Check me?</string>
+    <string name="switchMe">Switch me?</string>
+    <string name="option01">Option 1</string>
+    <string name="option02">Option 2</string>
+    <string name="option03">Option 3</string>
+    <string name="option04">Option 4</string>
+    <string name="choose01">Choose 1</string>
+    <string name="clearChoice">Clear Choice</string>
+    <string name="droidSkater02">Droid Skater 2</string>
+    <string name="title_activity_video_view">Video View Activity</string>
+    <string name="playback">Video Playback</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

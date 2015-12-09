@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Paris View</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Bonjour Paris!</string>
+    <string name="parisflag">Paris Flag</string>
+
+</resources>
